@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>ToDo List</h1>
+
+        <div class="container1">
+            <h2>ADD TASK</h2> 
+            Task:
+            <input type="text" id="task" name="task" placeholder="Enter task" required>
+            Description:
+            <textarea name="desc" id="desc" rows="6" placeholder="Enter description"></textarea>
+            <button type="submit" onclick="myfunc()" class="sub">Add to List</button>
+        </div>      
+
+        <hr>
+
+            <h2>TASK LIST</h2>
+            <table>
+                <tr>
+                    <td>S.no</td>
+                    <td>Task</td>
+                    <td>Description</td>
+                    <td> Remove item</td>
+                </tr>
+            </table>
+
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
